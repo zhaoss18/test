@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F3215B217DA1E900B0D1A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F3215A217DA1E900B0D1A6 /* AppDelegate.m */; };
+		45F32166217DA1EB00B0D1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F32165217DA1EB00B0D1A6 /* Assets.xcassets */; };
+		45F32169217DA1EB00B0D1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F32167217DA1EB00B0D1A6 /* LaunchScreen.storyboard */; };
+		45F3216C217DA1EB00B0D1A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F3216B217DA1EB00B0D1A6 /* main.m */; };
+		45F32174217DA40D00B0D1A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F32173217DA40D00B0D1A6 /* ViewController.m */; };
+		45F3217A217EB1FA00B0D1A6 /* HLHealthAdviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F32177217EB1FA00B0D1A6 /* HLHealthAdviceModel.m */; };
+		45F3217B217EB1FA00B0D1A6 /* HLHealthAdviceTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F32179217EB1FA00B0D1A6 /* HLHealthAdviceTableCell.m */; };
+		45F3217E217EB2EF00B0D1A6 /* HLScreenFitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F3217D217EB2EF00B0D1A6 /* HLScreenFitTool.m */; };
+		45F32181217EC7AA00B0D1A6 /* HLHealthAdviceDescWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F3217F217EB59D00B0D1A6 /* HLHealthAdviceDescWebView.m */; };
+		A6F83B7B99BB08990A9F5883 /* libPods-HLWebViewAdvice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB96842125930298F6454B /* libPods-HLWebViewAdvice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45F32156217DA1E900B0D1A6 /* HLWebViewAdvice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLWebViewAdvice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F32159217DA1E900B0D1A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45F3215A217DA1E900B0D1A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45F32165217DA1EB00B0D1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F32168217DA1EB00B0D1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45F3216A217DA1EB00B0D1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F3216B217DA1EB00B0D1A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45F32172217DA40D00B0D1A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45F32173217DA40D00B0D1A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45F32175217EB1F900B0D1A6 /* HLHealthAdviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHealthAdviceModel.h; sourceTree = "<group>"; };
+		45F32176217EB1FA00B0D1A6 /* HLHealthAdviceDescWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHealthAdviceDescWebView.h; sourceTree = "<group>"; };
+		45F32177217EB1FA00B0D1A6 /* HLHealthAdviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHealthAdviceModel.m; sourceTree = "<group>"; };
+		45F32178217EB1FA00B0D1A6 /* HLHealthAdviceTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHealthAdviceTableCell.h; sourceTree = "<group>"; };
+		45F32179217EB1FA00B0D1A6 /* HLHealthAdviceTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHealthAdviceTableCell.m; sourceTree = "<group>"; };
+		45F3217C217EB2EF00B0D1A6 /* HLScreenFitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLScreenFitTool.h; sourceTree = "<group>"; };
+		45F3217D217EB2EF00B0D1A6 /* HLScreenFitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLScreenFitTool.m; sourceTree = "<group>"; };
+		45F3217F217EB59D00B0D1A6 /* HLHealthAdviceDescWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHealthAdviceDescWebView.m; sourceTree = "<group>"; };
+		45F32182217EE8D800B0D1A6 /* hDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hDefine.h; sourceTree = "<group>"; };
+		7FDB96842125930298F6454B /* libPods-HLWebViewAdvice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLWebViewAdvice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844DE41B5CB1FB397E981250 /* Pods-HLWebViewAdvice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLWebViewAdvice.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLWebViewAdvice/Pods-HLWebViewAdvice.release.xcconfig"; sourceTree = "<group>"; };
+		C5FDED529BE7882F2692CB34 /* Pods-HLWebViewAdvice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLWebViewAdvice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLWebViewAdvice/Pods-HLWebViewAdvice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F32153217DA1E900B0D1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F83B7B99BB08990A9F5883 /* libPods-HLWebViewAdvice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F3214D217DA1E900B0D1A6 = {
+			isa = PBXGroup;
+			children = (
+				45F32158217DA1E900B0D1A6 /* HLWebViewAdvice */,
+				45F32157217DA1E900B0D1A6 /* Products */,
+				C47CC624FAF3A13AFBCBCA59 /* Pods */,
+				4D9D081728C7ECF5A1B06806 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45F32157217DA1E900B0D1A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F32156217DA1E900B0D1A6 /* HLWebViewAdvice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F32158217DA1E900B0D1A6 /* HLWebViewAdvice */ = {
+			isa = PBXGroup;
+			children = (
+				45F3217C217EB2EF00B0D1A6 /* HLScreenFitTool.h */,
+				45F3217D217EB2EF00B0D1A6 /* HLScreenFitTool.m */,
+				45F32176217EB1FA00B0D1A6 /* HLHealthAdviceDescWebView.h */,
+				45F3217F217EB59D00B0D1A6 /* HLHealthAdviceDescWebView.m */,
+				45F32175217EB1F900B0D1A6 /* HLHealthAdviceModel.h */,
+				45F32177217EB1FA00B0D1A6 /* HLHealthAdviceModel.m */,
+				45F32178217EB1FA00B0D1A6 /* HLHealthAdviceTableCell.h */,
+				45F32179217EB1FA00B0D1A6 /* HLHealthAdviceTableCell.m */,
+				45F32159217DA1E900B0D1A6 /* AppDelegate.h */,
+				45F3215A217DA1E900B0D1A6 /* AppDelegate.m */,
+				45F32165217DA1EB00B0D1A6 /* Assets.xcassets */,
+				45F32167217DA1EB00B0D1A6 /* LaunchScreen.storyboard */,
+				45F3216A217DA1EB00B0D1A6 /* Info.plist */,
+				45F3216B217DA1EB00B0D1A6 /* main.m */,
+				45F32172217DA40D00B0D1A6 /* ViewController.h */,
+				45F32173217DA40D00B0D1A6 /* ViewController.m */,
+				45F32182217EE8D800B0D1A6 /* hDefine.h */,
+			);
+			path = HLWebViewAdvice;
+			sourceTree = "<group>";
+		};
+		4D9D081728C7ECF5A1B06806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB96842125930298F6454B /* libPods-HLWebViewAdvice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C47CC624FAF3A13AFBCBCA59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5FDED529BE7882F2692CB34 /* Pods-HLWebViewAdvice.debug.xcconfig */,
+				844DE41B5CB1FB397E981250 /* Pods-HLWebViewAdvice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F32155217DA1E900B0D1A6 /* HLWebViewAdvice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F3216F217DA1EB00B0D1A6 /* Build configuration list for PBXNativeTarget "HLWebViewAdvice" */;
+			buildPhases = (
+				544ABA26B10813275254FD69 /* [CP] Check Pods Manifest.lock */,
+				45F32152217DA1E900B0D1A6 /* Sources */,
+				45F32153217DA1E900B0D1A6 /* Frameworks */,
+				45F32154217DA1E900B0D1A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLWebViewAdvice;
+			productName = HLWebViewAdvice;
+			productReference = 45F32156217DA1E900B0D1A6 /* HLWebViewAdvice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F3214E217DA1E900B0D1A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = HL;
+				TargetAttributes = {
+					45F32155217DA1E900B0D1A6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 45F32151217DA1E900B0D1A6 /* Build configuration list for PBXProject "HLWebViewAdvice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F3214D217DA1E900B0D1A6;
+			productRefGroup = 45F32157217DA1E900B0D1A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F32155217DA1E900B0D1A6 /* HLWebViewAdvice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F32154217DA1E900B0D1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F32169217DA1EB00B0D1A6 /* LaunchScreen.storyboard in Resources */,
+				45F32166217DA1EB00B0D1A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		544ABA26B10813275254FD69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLWebViewAdvice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F32152217DA1E900B0D1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F32174217DA40D00B0D1A6 /* ViewController.m in Sources */,
+				45F3215B217DA1E900B0D1A6 /* AppDelegate.m in Sources */,
+				45F3216C217DA1EB00B0D1A6 /* main.m in Sources */,
+				45F3217B217EB1FA00B0D1A6 /* HLHealthAdviceTableCell.m in Sources */,
+				45F3217A217EB1FA00B0D1A6 /* HLHealthAdviceModel.m in Sources */,
+				45F32181217EC7AA00B0D1A6 /* HLHealthAdviceDescWebView.m in Sources */,
+				45F3217E217EB2EF00B0D1A6 /* HLScreenFitTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45F32167217DA1EB00B0D1A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F32168217DA1EB00B0D1A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45F3216D217DA1EB00B0D1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45F3216E217DA1EB00B0D1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F32170217DA1EB00B0D1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FDED529BE7882F2692CB34 /* Pods-HLWebViewAdvice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HLWebViewAdvice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zss.HLWebViewAdvice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45F32171217DA1EB00B0D1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844DE41B5CB1FB397E981250 /* Pods-HLWebViewAdvice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HLWebViewAdvice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zss.HLWebViewAdvice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F32151217DA1E900B0D1A6 /* Build configuration list for PBXProject "HLWebViewAdvice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F3216D217DA1EB00B0D1A6 /* Debug */,
+				45F3216E217DA1EB00B0D1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F3216F217DA1EB00B0D1A6 /* Build configuration list for PBXNativeTarget "HLWebViewAdvice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F32170217DA1EB00B0D1A6 /* Debug */,
+				45F32171217DA1EB00B0D1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45F3214E217DA1E900B0D1A6 /* Project object */;
+}
